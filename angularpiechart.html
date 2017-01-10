@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="chartApp">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="ilmu-detil.blogspot.com">
+	<title>AngularJS Graph Using Highcharts </title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/ilmudetil.css">
+	<script  src="assets/js/jquery-1.11.3.min.js"></script>
+	<script src="assets/js/highcharts.src.js"></script>
+	<script src="assets/js//angular.js"></script>
+	<script src="assets/js/exporting.js"></script>
+	    
+</head>
+<body >
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html">
+			Pusat Ilmu Secara Detil</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-left">
+				<li class="clr1 active"><a href="index.html">Home</a></li>
+				<li class="clr2"><a href="">Programming</a></li>
+				<li class="clr3"><a href="">English</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+</br></br></br></br>	
+<div class="container" style="margin-top:20px" ng-controller="myController">
+	<div class="col-md-10">
+		<div class="panel panel-primary">
+			<div class="panel-heading">The Graph of Browser Trends January 2015</div>
+				<div class="panel-body">
+					<div id ="mygraph"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src = "chart.js"> </script>
+</body>
+</html>
